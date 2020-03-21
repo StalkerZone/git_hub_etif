@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Roboto+Condensed&display=swap');
+/*font-family: 'Oswald', ;  */
+/*font-family: 'Roboto Condensed', ;  */
+/*font-family: 'Montserrat', ;  */
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #616263;
+	background-color: #edeef2;
+	font-family: 'Roboto Condensed',  cursive;
+
+}
+
+#header {
+	margin-top: 2%;
+}
+
+.btn {
+	color: #0099CC;
+	background: transparent;
+	border: 1px solid #0099CC;
+	border-radius: 3px;
+	max-width: 150px;
+	width: 50%;
+	margin-top: 2%;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+
+h2 {
+	margin-bottom: 3%;
+}
+
+span {
+	font-family: 'Oswald', cursive;
+}
+
+@media (max-width: 991px) {
+    .service-area {
+      padding-bottom: 50px; }
+	}
+
+	.single-service {
+	  padding: 45px 39px;
+	  background: #8EBFBF;
+	  margin-bottom: 30px;
+	  -webkit-transition: all 0.3s ease 0s;
+	  -moz-transition: all 0.3s ease 0s;
+	  -o-transition: all 0.3s ease 0s;
+	  transition: all 0.3s ease 0s; 
+	}
+
+@media (max-width: 1199px) {
+    .single-service {
+      padding: 30px 20px; 
+    } 
+}
+
+@media (max-width: 576px) {
+    .single-service {
+      text-align: center; 
+    }
+}
+
+.section-title {
+	margin: 15px;
+}
+
+.single-service i {
+    font-size: 36px;
+    color: #f81c1c;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; 
+	}
+
+.single-service h2 {
+	color: #242429;
+	font-size: 2em;
+	line-height: 27px; 
+	}
+
+.single-service h4 {
+	color: #242429;
+	font-size: 1.5em;
+	line-height: 27px; 
+	}
+
+.single-service h4 span {
+      display: block; 
+  	}
+
+@media (max-width: 767px) {
+    .single-service h4 span {
+      display: inline-block; 
+    } 
+}
+
+.single-service p {
+    margin-bottom: 0px; 
+	}
+
+.single-service:hover {
+  	color:  white; /* red */
+  	cursor: pointer;
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    -o-transform: translateY(-6px);
+    transform: translateY(-6px);
+    box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2); 
+	}
+
+.btn:hover {
+    background-color: #0099CC;
+    color: white;
+ }
+
+img {
+	background-color: transparent;
+	margin-top: 3%;
+	height: 7em;
+	width: 7em;
+}
+
+footer {
+   position: relative;
+   left: 0px;
+   bottom: 10px;
+   height:30px;
+   width:100%;
+}
+
+footer span {
+	color: red;
+}
